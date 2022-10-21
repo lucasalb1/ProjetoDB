@@ -32,7 +32,6 @@ header > h3 > a:hover{
    text-decoration: underline;
 }
 header > nav{
-    text-align: center;
     font-size: 1.1em;
     word-spacing: 1em;
     padding-bottom: 10px;
@@ -50,56 +49,53 @@ main{
     min-width: 250px;
     max-width: 1000px;
     margin: auto;
-    box-shadow: 0px 1px 5px 0px darkgray
 }
-section {
-    background-color: rgb(207, 232, 238);
-}
-.cc{
+#loc{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.9em;
     font-weight: bold;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
-.nn{
+#lo{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.3em;
-    line-height: 40px;
-    padding-left: 15px;
-    padding-bottom: 30px;
-    padding-right: 15px;
+    font-weight: 500;
+    font-size: 19px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    text-indent: 25px;
     text-align: justify;
-    text-indent: 20px;
 }
-
-.nn > p > a{
-    text-decoration:none;
-    color: black;
+#ca{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+    padding-bottom: 5px;
 }
-.nn > p > a:hover{
-    text-decoration: underline;
+.med{
+    box-shadow: 0px 1px 5px 0px darkgray
 }
 footer{
     background-color: rgb(0, 47, 68);
     color: rgba(255, 255, 255, 0.678);
-    line-height: 32px;
-    text-align: center;
-    padding-top: 11px;
-    padding-bottom: 7px;
-    font-size: 1em;
-    font-family: Arial, Helvetica, sans-serif;
-    }
-
-    footer > a{
-      text-decoration: none;
-      color: rgba(255, 255, 255, 0.726);
-    }
-    #foot:hover{
-      text-decoration: underline;
-    }
-    #fot{
-      font-weight: bold;
-      padding-bottom: 5px;
-    }
+     line-height:32px;
+     text-align: center;
+     padding-top:11px;
+     padding-bottom: 7px;
+     font-size: 1em;
+     font-family: Arial, Helvetica, sans-serif;
+     }
+ 
+     footer > a{
+       text-decoration: none;
+       color: rgba(255, 255, 255, 0.678);
+     }
+     #foot:hover{
+       text-decoration: underline;
+     }
+     #fot{
+       font-weight: bold;
+       padding-bottom: 5px;
+     }
