@@ -65,9 +65,15 @@ main{
     padding-right: 15px;
     box-shadow: 0px 1px 5px 0px darkgray;
  }
- img{
-   width: 100%;
-   margin-bottom: -4px;
+ .img1{
+   width: 50%;
+   display: block;
+   margin: auto;
+ }
+ .img2{
+   width: 70%;
+   display: block;
+   margin: auto;
  }
 
  .two{
@@ -116,12 +122,13 @@ main{
  }
 
  .four{
-    background-color: rgb(207, 232, 238);
+   background-color: rgb(207, 232, 238);
     font-family:'Dancing Script', cursive;
     font-weight: bold;
     text-align: center;
     font-size: 2em;
-    padding-top: 25px;
+    padding-top: 50px;
+    padding-bottom: 20px;
     line-height: 33px;
  }
 
