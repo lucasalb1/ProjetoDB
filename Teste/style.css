@@ -16,12 +16,11 @@ header{
 }
 header > h1{
     font-family: 'Bebas Neue', cursive;
-    padding-top: 20px;
     color: rgb(5, 5, 59);
     font-size: 2.7em;
 }
 header > h3{
-    padding-top: 10px;
+    padding-top: 15px;
     padding-bottom: 15px;
     color: rgb(0, 0, 58);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -53,27 +52,30 @@ main{
     max-width: 1000px;
     margin: auto;
     background-color: rgb(207, 232, 238);
+    box-shadow: 0px 1px 5px 0px darkgray;
  }
  .one{
     background-color: rgb(207, 232, 238);
     padding-top: 15px;
     padding-left: 15px;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
+    font-size: 17px;
     line-height: 25px;
     text-align: justify;
     padding-right: 15px;
-    box-shadow: 0px 1px 5px 0px darkgray;
  }
- .img1{
-   width: 50%;
-   display: block;
-   margin: auto;
- }
+.img1{
+   width: 70px;
+   position: relative;
+   top: 15px;
+   padding-top: -20px;
+}
  .img2{
-   width: 70%;
+   width: 75%;
    display: block;
    margin: auto;
+   padding-top: 10px;
+   padding-bottom: 10px;
  }
 
  .two{
@@ -81,11 +83,10 @@ main{
     padding-top: 15px;
     padding-left: 15px;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
+    font-size: 17px;
     line-height: 25px;
     text-align: justify;
     padding-right: 15px;
-    box-shadow: 0px 1px 5px 0px darkgray;
  }
  .two > p{
     padding-top: 10px;
@@ -103,16 +104,15 @@ main{
  }
  .three{
     background-color: rgb(207, 232, 238);
-    padding-top: 25px;
+    padding-top: 15px;
     padding-left: 15px;
     padding-right: 15px;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
+    font-size: 17px;
     line-height: 25px;
     margin-top: -4px;
     text-align: justify;
     padding-bottom: 25px;
-    box-shadow: 0px 1px 5px 0px darkgray;
  }
  .three > ul{
     padding-top: 13px;
@@ -130,6 +130,10 @@ main{
     padding-top: 50px;
     padding-bottom: 20px;
     line-height: 33px;
+ }
+ 
+ iframe{
+   padding-bottom: 10px;
  }
 
  footer{
