@@ -10,6 +10,16 @@
     margin: 0px;
 }
 
+@media (min-height:668px){
+   header{
+       height: 179px;
+   }
+   h1, h3, nav{
+       position: relative;
+       top: 10px;
+   }
+}
+
 header{
     text-align: center;
     background-color: rgb(255, 0, 140);
@@ -25,6 +35,8 @@ header > h3{
     color: rgb(0, 0, 58);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 1.1em;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 header > h3 > a{
    text-decoration: none;

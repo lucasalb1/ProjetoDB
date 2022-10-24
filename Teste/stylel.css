@@ -7,6 +7,16 @@
     margin: 0px;
 }
 
+@media (min-height:668px){
+    header{
+        height: 179px;
+    }
+    h1, h3, nav{
+        position: relative;
+        top: 10px;
+    }
+}
+
 header{
     text-align: center;
     background-color: rgb(255, 0, 140);
