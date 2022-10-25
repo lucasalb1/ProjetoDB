@@ -10,13 +10,13 @@
     margin: 0px;
 }
  
-@media (min-height:668px){
+@media (min-height: 720px){
    header{
        height: 179px;
    }
    h1, h3, nav{
        position: relative;
-       top: 5px;
+       top: 10px;
    }
    footer{
       height: 129px;

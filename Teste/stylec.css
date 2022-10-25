@@ -12,7 +12,7 @@
     }
     h1, h3, nav{
         position: relative;
-        top: 5px;
+        top: 10px;
     }
     main{
         height: 415px;
