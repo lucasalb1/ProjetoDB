@@ -15,7 +15,7 @@
         top: 5px;
     }
     main{
-        height: 444px;
+        height: 415px;
         background-color: rgb(207, 232, 238);
     }
     .nn{
@@ -23,15 +23,15 @@
         top: 20px;
     }
     footer{
-        height: 129px;
+        height: 160px;
     }
     footer > a{
         position: relative;
-        top: 10px;
+        top: 20px;
     }
     footer > p{
         position: relative;
-        top: 10px;
+        top: 20px;
     }
 } 
 header{
