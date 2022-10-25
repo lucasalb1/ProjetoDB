@@ -14,6 +14,7 @@
         position: relative;
         top: 5px;
     }
+    /*
     main{
         height: 415px;
         background-color: rgb(207, 232, 238);
@@ -22,6 +23,18 @@
         position: relative;
         top: 20px;
     }
+    footer{
+        height: 160px;
+    }
+    footer > a{
+        position: relative;
+        top: 20px;
+    }
+    footer > p{
+        position: relative;
+        top: 20px;
+    }
+    */
 } 
 header{
     text-align: center;
