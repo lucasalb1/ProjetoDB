@@ -6,7 +6,7 @@
     border: 0px;
     margin: 0px;
 }
-@media (min-height:668px){
+@media (min-height:700px){
     header{
         height: 179px;
     }
@@ -14,7 +14,6 @@
         position: relative;
         top: 5px;
     }
-    /*
     main{
         height: 415px;
         background-color: rgb(207, 232, 238);
@@ -34,7 +33,6 @@
         position: relative;
         top: 20px;
     }
-    */
 } 
 header{
     text-align: center;
