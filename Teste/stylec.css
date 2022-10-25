@@ -6,7 +6,7 @@
     border: 0px;
     margin: 0px;
 }
-@media (min-height:700px){
+@media (min-height:750px){
     header{
         height: 179px;
     }
