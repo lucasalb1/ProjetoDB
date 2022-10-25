@@ -9,16 +9,16 @@
     border: 0px;
     margin: 0px;
 }
-
+ 
 @media (min-height:668px){
    header{
        height: 179px;
    }
    h1, h3, nav{
        position: relative;
-       top: 10px;
+       top: 5px;
    }
-}
+} 
 
 header{
     text-align: center;
