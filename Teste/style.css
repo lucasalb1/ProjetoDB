@@ -18,7 +18,19 @@
        position: relative;
        top: 5px;
    }
+   footer{
+      height: 129px;
+   }
+   footer > a{
+      position: relative;
+      top: 10px;
+   }
+   footer > p{
+      position: relative;
+      top: 10px;
+   }
 } 
+
 
 header{
     text-align: center;
