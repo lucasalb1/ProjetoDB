@@ -33,7 +33,7 @@
         position: relative;
         top: 10px;
     }
-}
+} 
 header{
     text-align: center;
     background-color: rgb(255, 0, 140);
@@ -49,6 +49,8 @@ header > h3{
     color: rgb(0, 0, 58);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 1.1em;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 header > h3 > a{
    text-decoration: none;
@@ -58,10 +60,9 @@ header > h3 > a:hover{
    text-decoration: underline;
 }
 header > nav{
-    text-align: center;
     font-size: 1.1em;
     word-spacing: 1em;
-    padding-bottom: 10px;
+    padding-bottom: 15px;
 }
 header > nav > a{
     text-decoration: none;
@@ -87,6 +88,7 @@ main{
 section {
     background-color: rgb(207, 232, 238);
 }
+
 .cc{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
@@ -123,7 +125,6 @@ footer{
     font-size: 1em;
     font-family: Arial, Helvetica, sans-serif;
     }
-
     footer > a{
       text-decoration: none;
       color: rgba(255, 255, 255, 0.678);

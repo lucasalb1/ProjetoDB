@@ -32,6 +32,8 @@ header > h3{
     color: rgb(0, 0, 58);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 1.1em;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 header > h3 > a{
    text-decoration: none;
@@ -43,7 +45,7 @@ header > h3 > a:hover{
 header > nav{
     font-size: 1.1em;
     word-spacing: 1em;
-    padding-bottom: 10px;
+    padding-bottom: 15px;  
 }
 header > nav > a{
     text-decoration: none;
