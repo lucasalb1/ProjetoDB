@@ -15,10 +15,6 @@ body{
     header{
         height: 179px;
     }
-    h1, h3, nav{
-        position: relative;
-        top: 10px;
-    }
     main{
         height: 415px;
         background-color: rgb(207, 232, 238);
@@ -155,7 +151,7 @@ body{
         font-size: 52px;
     }
     .img1{
-        height: 125px;
+        height: 120px;
     }
     main{
         height: 1050px;
@@ -224,7 +220,7 @@ header > nav > a:hover{
     padding: 4px;
 }
 .img1{
-    width: 95px;
+    width: 92px;
     position: relative;
     top: 15px;
     padding-top: -20px;
