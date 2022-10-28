@@ -6,6 +6,11 @@
     border: 0px;
     margin: 0px;
 }
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+ }
 @media (min-height:720px){
     header{
         height: 179px;
@@ -34,6 +39,151 @@
         top: 20px;
     }
 } 
+@media (min-height:950px){
+    header{
+        height: 200px;
+        font-size: 20px;
+    }
+    main{
+        height: 510px;
+        width: 550px;
+        font-size: 20px;
+    }
+    footer{
+        height: 200px;
+    }
+    footer > a{
+        font-size: 21px;
+        position: relative;
+        top: 35px;
+    }
+    footer > p{
+        font-size: 21px;
+        position: relative;
+        top: 35px;
+    }
+}
+@media (min-height:1250px){
+    header{
+        height: 230px;
+        font-size: 25px;
+    }
+    main{
+        height: 620px;
+        width: 740px;
+        font-size: 25px;
+    }
+    footer{
+        height: 230px;
+    }
+    footer > a{
+        font-size: 26px;
+        line-height: 40px;
+    }
+    footer > p{
+        font-size: 26px;
+    }
+}
+@media (min-height:1450px){ 
+    header{
+        height: 280px;
+        font-size: 31px;
+    }
+    main{
+        height: 710px;
+        width: 900px;
+        font-size: 30px;
+    }
+    main > section.cc{
+        position: relative;
+        top: 25px;
+    }
+    main > section.nn{
+        position: relative;
+        top: 40px;
+        line-height: 38px;
+    }
+    footer{
+        height: 280px;
+    }
+    footer > a{
+        font-size: 31px;
+        line-height: 50px;
+    }
+    footer > p{
+        font-size: 31px;
+        line-height: 50px;
+    }
+}
+@media (min-height:1750px){
+    header{
+        height: 350px;
+        font-size: 39px;
+    }
+    main{
+        height: 800px;
+        width: 1000px;
+        font-size: 37px;
+    }
+    .img1{
+        height: 100px;
+    }
+    main > section.cc{
+        position: relative;
+        top: 35px;
+    }
+    main > section.nn{
+        position: relative;
+        top: 50px;
+        line-height: 45px;
+    }
+    footer{
+        height: 340px;
+    }
+    footer > a{
+        font-size: 38px;
+        line-height: 65px;
+    }
+    footer > p{
+        font-size: 38px;
+        line-height: 70px;
+    }
+}
+@media (min-height:2150px){
+    header{
+        height: 410px;
+        font-size: 52px;
+    }
+    .img1{
+        height: 125px;
+    }
+    main{
+        height: 1050px;
+        width: 1200px;
+        font-size: 44px;
+    }
+    main > section.cc{
+        position: relative;
+        top: 45px;
+    }
+    main > section.nn{
+        position: relative;
+        top: 90px;
+        line-height: 50px;
+    }
+    footer{
+        height: 400px;
+    }
+    footer > a{
+        font-size: 46px;
+        line-height: 80px;
+    }
+    footer > p{
+        font-size: 46px;
+        line-height: 85px;
+    }
+    
+}
 header{
     text-align: center;
     background-color: rgb(255, 0, 140);
@@ -74,14 +224,14 @@ header > nav > a:hover{
     padding: 4px;
 }
 .img1{
-    width: 70px;
+    width: 95px;
     position: relative;
     top: 15px;
     padding-top: -20px;
  }
 main{
     min-width: 250px;
-    max-width: 1000px;
+    max-width: 1200px;
     margin: auto;
     box-shadow: 0px 1px 5px 0px darkgray;
 }
@@ -107,7 +257,6 @@ section {
     text-align: justify;
     text-indent: 20px;
 }
-
 .nn > p > a{
     text-decoration:none;
     color: black;

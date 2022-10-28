@@ -6,7 +6,11 @@
     border: 0px;
     margin: 0px;
 }
-
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+ }
 @media (min-height: 720px){
     header{
         height: 179px;
@@ -27,7 +31,6 @@
         top: 10px;
     }
 }
-
 header{
     text-align: center;
     background-color: rgb(255, 0, 140);
