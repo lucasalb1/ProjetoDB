@@ -6,11 +6,13 @@
     border: 0px;
     margin: 0px;
 }
+
 body{
     height: 100vh;
     display: flex;
     flex-direction: column;
- }
+} 
+
 @media (min-height: 720px){
     header{
         height: 179px;

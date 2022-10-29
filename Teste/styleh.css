@@ -14,14 +14,15 @@ body{
 }
 @media (min-height:720px){
 header{
-    height: 179px;
+    height: 180px;
+    font-size: 19px;
 }
 h1, h3, nav{
     position: relative;
     top: 10px;
 }
 footer{
-    height: 129px;
+    height: 100px;
 }
 footer > a{
     position: relative;
