@@ -59,7 +59,7 @@ body{
         top: 35px;
     }
 }
-@media (min-height:1250px){
+@media (min-height:1200px){
     header{
         height: 230px;
         font-size: 25px;
@@ -82,8 +82,9 @@ body{
 }
 @media (min-height:1450px){ 
     header{
-        height: 280px;
+        height: 270px;
         font-size: 31px;
+        padding-top: 20px;
     }
     main{
         height: 710px;
@@ -111,7 +112,7 @@ body{
         line-height: 50px;
     }
 }
-@media (min-height:1750px){
+@media (min-height:1700px){
     header{
         height: 350px;
         font-size: 39px;
@@ -145,7 +146,7 @@ body{
         line-height: 70px;
     }
 }
-@media (min-height:2150px){
+@media (min-height:2050px){
     header{
         height: 410px;
         font-size: 52px;
@@ -220,7 +221,7 @@ header > nav > a:hover{
     padding: 4px;
 }
 .img1{
-    width: 92px;
+    width: 88px;
     position: relative;
     top: 15px;
     padding-top: -20px;

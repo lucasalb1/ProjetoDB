@@ -74,12 +74,15 @@ body{
    }
    main > section.one{
       font-size: 25.5px;
+      line-height: 32px;
    }
    main > section.two{
       font-size: 25.5px;
+      line-height: 32px;
    }
    main > section.three{
       font-size: 25.5px;
+      line-height: 32px;
    }
    main > section > p.four{
       font-size: 50px;
@@ -265,7 +268,7 @@ body{
    }
 }
 
-@media (min-height:2150px){
+@media (min-height:2100px){
    header{
        height: 390px;
        font-size: 49px;
